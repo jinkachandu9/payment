@@ -84,7 +84,7 @@ function App() {
       },
       body: JSON.stringify(data)
     };
-    fetch('https://assignment-roiim-chandu.herokuapp.com/api/token', requestOptions)
+    fetch('https://roiim1.herokuapp.com/api/token', requestOptions)
       .then(response => response.json())
       .then(result => {
         // console.log(result);
